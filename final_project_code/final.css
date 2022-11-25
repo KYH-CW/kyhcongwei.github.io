@@ -1,0 +1,211 @@
+* {
+
+    margin: 0px;
+  
+    padding: 0px;
+  
+    box-sizing: border-box;
+  
+  }
+  
+  .maintext {
+  
+    display: flex;
+  
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+    align-items: center;
+  
+    justify-content: center;
+  
+    margin-top: 10px;
+
+    text-shadow: 5px 5px 5px red;
+  
+  }
+  
+  nav {
+  
+    display: flex;
+  
+    justify-content: space-around;
+  
+    align-items: center;
+  
+    min-height: 8vh;
+  
+    background-color: rgb(148, 25, 6);
+  
+    font-family: "Montserrat", sans-serif;
+  
+  }
+
+  .banner img{
+    width: 100%;
+}
+
+.headbar{
+
+        color: white;
+      
+        text-transform: uppercase;
+      
+        letter-spacing: 5px;
+      
+        font-size: 20px;
+  }
+
+  .navigation {
+
+    display: flex;
+  
+    justify-content: space-around;
+  
+    width: 30%;
+  
+  }
+  .navigation li {
+
+    list-style: none;
+  
+  }
+  
+  .navigation a {
+  
+    color: white;
+  
+    text-decoration: none;
+  
+    letter-spacing: 3px;
+  
+    font-weight: bold;
+  
+    font-size: 14px;
+  
+    padding: 14px 16px;
+  
+  }
+  
+  .navigation a:hover:not(.active) {
+  
+    background-color: rgb(198, 219, 5);
+  
+  }
+  
+  .navigation li a.active {
+  
+    background-color: #a0930a;
+  
+  }
+
+  .footer {
+    display: flex;
+  
+    justify-content: space-around;
+  
+    align-items: center;
+  
+    min-height: 8vh;
+  
+    background-color: rgb(148, 25, 6);
+  
+    font-family: "Montserrat", sans-serif;
+}
+
+.colmain{
+   display: flex;
+   
+}
+
+.col-2{
+   flex-wrap: 2;
+   margin-left: 10%;
+   margin-right: 10%;
+}
+
+
+.footer ul {
+   list-style-type: none;
+   margin:0;
+   padding: 0;
+   
+}
+
+
+.footer li{
+   font-variant: small-caps;
+   padding-top: 0.3vh;
+   padding-bottom: 0.3vh;
+   font-size: smaller;
+}
+
+
+.footer a {
+   text-decoration: none;
+   color: #F4F5F5;
+   
+}
+
+.h2 {
+   color: #ffbf00;
+}
+
+.h4 {
+    text-align: left;
+    padding-left: 10px;
+}
+
+.hr {
+    border-top: 0.001px solid #FE0200;
+}
+
+.main-content {
+    position: relative;
+    width: 55%;
+    margin-left: 20%;
+    padding-bottom: 5%;
+}
+
+.main-content p{
+   font-family: "Georgia", "Times New Roman", Times, serif;
+   font-size: large;
+   line-height: 150%;
+   text-indent: 10%;
+}
+
+.main-content img {
+   width:490px;
+   height: 390px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   padding-top: 2.5vh;
+   padding-bottom: 1.5vh;
+}
+
+.main-content h2{
+   padding-top: 2vh;
+   font-family: "Canela", "Times New Roman", Times, serif;
+}
+
+.main-content li{
+   font-size: large;
+}
+
+.button {
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: #ffffff00;}
+
+
+

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <style>
+    p {
+       display: flex;
+       font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       align-items: center;
+       justify-content: center;
+       margin-top: 10px;
+       padding-bottom: 5%;
+    }
+
+        body{
+      width: 100%;
+      margin-right: auto;
+      margin-left: auto;
+      font-family: 'Times New Roman', Times, serif;
+    }
+    
+    h2 {
+      color: whitesmoke;
+      background-color: #a0980a;
+      text-shadow: 3px 3px 3px gray;
+      box-shadow: 2px 2px 2px black;
+      text-align: center;
+      padding: 6px;
+      border-radius: 6px;
+    }
+    
+    label{
+      display: inline-block;
+      text-align: left;
+      vertical-align: top;
+      width: 110px;
+    }
+    
+    input{
+      border: 2px solid blue;
+      border-radius: 5px;
+      padding: 5px;
+    }
+    
+    #button{
+      text-align: center;
+      padding: 5px;
+      margin: 20px;
+      font-family: 'Times New Roman', Times, serif;
+    }
+    
+    button {
+      color: white;
+      font-weight: bold;
+      font-size: 1em;
+      width: 120px;
+      height: 50px;
+      border: 0;
+      background-color:rgb(0, 0, 0);
+      border-radius: 5px;
+      text-shadow: 3px 3px 3px gray;
+      box-shadow: 2px 2px 2px gray;
+    }
+    
+    #contact-details label{
+        width: 250px;
+    }
+    
+    #question{
+        width: 100%;
+    }
+    
+    div{
+        padding: 5px;
+    }
+    
+    textarea{
+       border: 2px solid blue;
+      border-radius: 10px;
+      padding: 5px;
+    }
+    
+    
+    button:hover{
+      background-color:rgb(148, 25, 6);
+    }
+    
+    .flex-container{
+      display: flex;
+      padding: 0;
+      margin: 0;
+    }
+      </style>
+
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="final.css" />
+    <link rel="icon" href="image/virus.png" type="image/png type">
+    <title>COVID-19</title>
+  </head>
+
+  <body>
+
+    <nav>
+
+      <div class="headbar">
+        <h4>COVID-19</h4>
+      </div>
+
+      <ul class="navigation">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="information.html">Overview</a></li>
+        <li><a href="symptom.html">Symptom</a></li>
+        <li><a href="prevention.html">Prevention</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="login.html">LOGIN</a></li>
+
+      </ul>
+    </nav>
+
+    <div class="banner">
+        <img src="image/sign.png" height="400"></img>
+    </div>
+
+    <form name="contactform" action="/my-handling-form-page" onsubmit="return validateForm()" method="post">
+        <div id="user-details">
+            <h2>SIGN UP</h2>
+            <div class="flex-container">
+                <div style="flex: 1">
+                    <div>
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" name="email" size="30" />
+                    </div>
+                </div>
+                    <div style="flex: 1">
+                        <label for="password">Password</label>
+                        <input type="password" id="password"
+                         name="password" size="40" />
+                    </div>
+            </div>
+        </div>
+
+        <div id="button">
+            <button type="submit" id="button">SIGN UP</button>
+        </div>
+    </form>   
+
+      <p> 
+        Sign up already? &nbsp; <a href="login.html">LOGIN</a> &nbsp; here now!
+      </p>
+ 
+
+    <script>
+    document.getElementById("button").onclick = function () {
+        alert("SIGN UP SUCCESSFULLY!");
+        return(false);
+    };
+    </script>
+
+    <div class="footer">
+      <h3>Searching more answering?? Contact us now!!</h3>
+      <a href="contact.html" class="button button1"><ins>GO -></ins></a>
+      <small> &copy; <a href="https://university.sunway.edu.my/">Sunway University 2022</a></small>
+    </div>
+  </body>
+
+</html>
